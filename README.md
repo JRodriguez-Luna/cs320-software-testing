@@ -28,7 +28,7 @@ someone's hands.
 
 I start by reading the requirements carefully and turning them into 
 rules the code has to follow. For example, the client needed contact 
-IDs to be no longer than 10 characters and names no longer than 30 — 
+IDs to be no longer than 10 characters and names no longer than 30
 so I built those limits directly into the Contact class and wrote tests 
 to make sure they held. Requirements are not just background reading, 
 they are the definition of what "working correctly" actually means.
@@ -38,6 +38,6 @@ they are the definition of what "working correctly" actually means.
 I build things in small steps and test as I go. I start with the core 
 functionality, then write tests to see if it actually behaves the way 
 I expect, and then fix or improve anything the tests expose. This 
-course reinforced that thinking about how something could break — 
-before you are done building it — leads to cleaner, more reliable 
+course reinforced that thinking about how something could break,
+before you are done building it, and leads to cleaner, more reliable 
 code.
